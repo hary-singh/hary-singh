@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @hary-singh
-- 👀 I’m interested in Software Engineering
+- 👀 I’m a Backend Software Engineer
 - 🌱 I’m currently learning React
 - 📫 How to reach me: https://www.linkedin.com/in/harrysdhillon/ or https://hary-singh.github.io/
 
