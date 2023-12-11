@@ -1,4 +1,4 @@
-# 👨‍💻 Greetings, Fellow Code Adventurer! I'm Hary Singh 👋
+# 👨‍💻 Greetings, Fellow Code Adventurer! I'm Harry👋
 
 ![Code Warp](https://img.shields.io/badge/Code-Warp-blue?style=for-the-badge)
 
