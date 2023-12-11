@@ -12,14 +12,15 @@ As a seasoned Backend Software Engineer, I navigate the vast realms of code, wie
 ## 💡 Tools in My Developer Arsenal:
 
 ![Java Mage](https://img.shields.io/badge/Java-Mage-yellow?style=for-the-badge&logo=java)
-![Spring Wizard](https://img.shields.io/badge/Spring-Wizard-brightgreen?style=for-the-badge&logo=spring)
-![Apache Kafka Sorcerer](https://img.shields.io/badge/Apache%20Kafka-Sorcerer-red?style=for-the-badge&logo=apache-kafka)
+![Spring Wizard](https://img.shields.io/badge/Spring-Wizard-success?style=for-the-badge&logo=spring)
+![Apache Kafka Sorcerer](https://img.shields.io/badge/Apache%20Kafka-Sorcerer-critical?style=for-the-badge&logo=apache-kafka)
 ![Python Enchanter](https://img.shields.io/badge/Python-Enchanter-blue?style=for-the-badge&logo=python)
 ![MySQL Alchemist](https://img.shields.io/badge/MySQL-Alchemist-orange?style=for-the-badge&logo=mysql)
 ![Prometheus Observer](https://img.shields.io/badge/Prometheus-Observer-yellow?style=for-the-badge&logo=prometheus)
 ![Grafana Seer](https://img.shields.io/badge/Grafana-Seer-blue?style=for-the-badge&logo=grafana)
 
-## 🌌 GitHub Stats:
+
+## 🌌 Quantum Code Flux Index:
 
 [![Hary's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hary-singh&show_icons=true&theme=dark)](https://github.com/hary-singh)
 
