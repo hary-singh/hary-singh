@@ -24,9 +24,7 @@ As a seasoned Backend Software Engineer, I navigate the vast realms of code, wie
 
 [![Hary's GitHub Stats](https://github-readme-stats.vercel.app/api?username=hary-singh&show_icons=true&theme=dark)](https://github.com/hary-singh)
 
-## 🌠 Repository Universe:
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=hary-singh&layout=compact&theme=dark)](https://github.com/hary-singh)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hary-singh)](https://github.com/hary-singh)
 
 May your code compile swiftly, and your bugs be but a fleeting illusion! 🚀✨
 
