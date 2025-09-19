@@ -1,0 +1,236 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Fun gradient background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="30%" style="stop-color:#764ba2;stop-opacity:1" />
+      <stop offset="70%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Text gradient -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#f0f9ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Drop shadow -->
+    <filter id="dropshadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bgGradient)" rx="15"/>
+
+  <!-- Floating geometric shapes -->
+  <g opacity="0.15">
+    <!-- Triangles -->
+    <polygon points="100,50 120,80 80,80" fill="#ffeb3b">
+      <animateTransform attributeName="transform" type="rotate" values="0 100 65;360 100 65" dur="8s" repeatCount="indefinite"/>
+    </polygon>
+
+    <polygon points="1050,70 1070,100 1030,100" fill="#4caf50">
+      <animateTransform attributeName="transform" type="rotate" values="0 1050 85;-360 1050 85" dur="12s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- Hexagons -->
+    <polygon points="200,40 215,50 215,70 200,80 185,70 185,50" fill="#ff9800">
+      <animateTransform attributeName="transform" type="rotate" values="0 200 60;360 200 60" dur="10s" repeatCount="indefinite"/>
+    </polygon>
+
+    <polygon points="950,220 965,230 965,250 950,260 935,250 935,230" fill="#2196f3">
+      <animateTransform attributeName="transform" type="rotate" values="0 950 240;-360 950 240" dur="15s" repeatCount="indefinite"/>
+    </polygon>
+
+    <!-- Circles with bounce -->
+    <circle cx="150" cy="250" r="8" fill="#e91e63">
+      <animate attributeName="cy" values="250;230;250" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <circle cx="1100" cy="50" r="6" fill="#9c27b0">
+      <animate attributeName="cy" values="50;70;50" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Floating code symbols -->
+  <g font-family="'JetBrains Mono', monospace" font-size="20" fill="#ffffff" opacity="0.2">
+    <text x="80" y="120" transform="rotate(-15 80 120)">{}</text>
+    <text x="1120" y="150" transform="rotate(20 1120 150)">[]</text>
+    <text x="50" y="200" transform="rotate(10 50 200)">&lt;/&gt;</text>
+    <text x="1150" y="100" transform="rotate(-10 1150 100)">( )</text>
+
+    <!-- Animated floating symbols -->
+    <text x="300" y="50" fill="#ffd54f">
+      <tspan>⚡</tspan>
+      <animate attributeName="y" values="50;30;50" dur="4s" repeatCount="indefinite"/>
+    </text>
+
+    <text x="900" y="60" fill="#81c784">
+      <tspan>🚀</tspan>
+      <animate attributeName="y" values="60;40;60" dur="3s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Main character: Cute robot/dev mascot -->
+  <g transform="translate(50, 80)">
+    <!-- Robot body -->
+    <rect x="0" y="30" width="40" height="50" rx="8" fill="#64b5f6" stroke="#1976d2" stroke-width="2"/>
+
+    <!-- Robot head -->
+    <rect x="5" y="0" width="30" height="35" rx="15" fill="#90caf9" stroke="#1976d2" stroke-width="2"/>
+
+    <!-- Eyes -->
+    <circle cx="15" cy="15" r="4" fill="#ffffff"/>
+    <circle cx="25" cy="15" r="4" fill="#ffffff"/>
+    <circle cx="15" cy="15" r="2" fill="#2196f3">
+      <animate attributeName="r" values="2;1;2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="25" cy="15" r="2" fill="#2196f3">
+      <animate attributeName="r" values="2;1;2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Smile -->
+    <path d="M12 25 Q20 30 28 25" stroke="#1976d2" stroke-width="2" fill="none"/>
+
+    <!-- Antennae -->
+    <line x1="15" y1="0" x2="15" y2="-8" stroke="#1976d2" stroke-width="2"/>
+    <line x1="25" y1="0" x2="25" y2="-8" stroke="#1976d2" stroke-width="2"/>
+    <circle cx="15" cy="-8" r="2" fill="#ff5722"/>
+    <circle cx="25" cy="-8" r="2" fill="#4caf50"/>
+
+    <!-- Arms -->
+    <rect x="-8" y="40" width="12" height="4" rx="2" fill="#64b5f6"/>
+    <rect x="36" y="40" width="12" height="4" rx="2" fill="#64b5f6"/>
+
+    <!-- Legs -->
+    <rect x="8" y="80" width="8" height="15" rx="4" fill="#64b5f6"/>
+    <rect x="24" y="80" width="8" height="15" rx="4" fill="#64b5f6"/>
+
+    <!-- Floating animation -->
+    <animateTransform attributeName="transform" type="translate" values="50,80;50,75;50,80" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- Main title with playful font -->
+  <text x="600" y="120" text-anchor="middle" fill="url(#textGradient)" font-family="'JetBrains Mono', monospace" font-size="48" font-weight="700" filter="url(#glow)">
+    Harry Dhillon
+  </text>
+
+  <!-- Fun subtitle -->
+  <text x="600" y="160" text-anchor="middle" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="18" font-weight="400" opacity="0.9">
+    <tspan>Senior Code Wizard 🧙‍♂️ | Bug Slayer 🗡️</tspan>
+  </text>
+
+  <!-- Animated typing code -->
+  <g transform="translate(600, 200)" opacity="0.9">
+    <text x="0" y="0" text-anchor="middle" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="14" filter="url(#dropshadow)">
+      <tspan>&gt; </tspan>
+      <tspan fill="#ffeb3b">while</tspan>
+      <tspan>(</tspan>
+      <tspan fill="#4caf50">coffee</tspan>
+      <tspan fill="#ff9800">.exists</tspan>
+      <tspan>()) { </tspan>
+      <tspan fill="#2196f3">code</tspan>
+      <tspan>(); }</tspan>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="4s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Tech stack with cute icons -->
+  <g transform="translate(200, 240)">
+    <!-- Java coffee cup -->
+    <g>
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#ED8B00"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="12">☕</text>
+      <animate attributeName="transform" values="scale(1);scale(1.1);scale(1)" dur="2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Spring leaf -->
+    <g transform="translate(50, 0)">
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#6DB33F"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="12">🍃</text>
+      <animate attributeName="transform" values="translate(50,0) rotate(0);translate(50,0) rotate(5);translate(50,0) rotate(0)" dur="3s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Python snake -->
+    <g transform="translate(100, 0)">
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#3776AB"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="12">🐍</text>
+      <animate attributeName="transform" values="translate(100,0);translate(105,0);translate(100,0)" dur="2.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Kafka -->
+    <g transform="translate(150, 0)">
+      <rect x="-10" y="-8" width="20" height="16" rx="3" fill="#231F20"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="8">🚀</text>
+      <animate attributeName="transform" values="translate(150,0) scale(1);translate(150,0) scale(1.05);translate(150,0) scale(1)" dur="4s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- React -->
+    <g transform="translate(200, 0)">
+      <rect x="-12" y="-8" width="24" height="16" rx="3" fill="#61DAFB"/>
+      <text x="0" y="4" text-anchor="middle" fill="#000" font-family="'JetBrains Mono', monospace" font-size="8">⚛️</text>
+    </g>
+  </g>
+
+  <!-- Right side tech stack -->
+  <g transform="translate(750, 240)">
+    <!-- Kubernetes -->
+    <g>
+      <rect x="-10" y="-8" width="20" height="16" rx="3" fill="#326CE5"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="9">K8s</text>
+      <animate attributeName="transform" values="rotate(0);rotate(360)" dur="8s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Docker -->
+    <g transform="translate(50, 0)">
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#2496ED"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="10">🐳</text>
+      <animate attributeName="transform" values="translate(50,0);translate(50,-2);translate(50,0)" dur="2s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- MySQL -->
+    <g transform="translate(100, 0)">
+      <rect x="-8" y="-8" width="16" height="16" rx="3" fill="#4479A1"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="8">🗄️</text>
+      <animate attributeName="transform" values="translate(100,0) scale(1);translate(100,0) scale(1.1);translate(100,0) scale(1)" dur="3.5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- Grafana -->
+    <g transform="translate(150, 0)">
+      <rect x="-10" y="-8" width="20" height="16" rx="3" fill="#F46800"/>
+      <text x="0" y="4" text-anchor="middle" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="8">📊</text>
+    </g>
+  </g>
+
+  <!-- Fun corners with sparkles -->
+  <g fill="#ffeb3b" opacity="0.6">
+    <text x="30" y="30" font-size="16">✨</text>
+    <text x="1150" y="30" font-size="16">⭐</text>
+    <text x="30" y="280" font-size="16">💫</text>
+    <text x="1150" y="280" font-size="16">🌟</text>
+
+    <!-- Animated sparkles -->
+    <text x="300" y="30" font-size="12">
+      <tspan>✨</tspan>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2s" repeatCount="indefinite"/>
+    </text>
+    <text x="900" y="280" font-size="12">
+      <tspan>⭐</tspan>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Rounded border -->
+  <rect x="3" y="3" width="1194" height="294" fill="none" stroke="#ffffff" stroke-width="2" rx="12" opacity="0.3"/>
+</svg>

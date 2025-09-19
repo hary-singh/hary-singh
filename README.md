@@ -1,32 +1,34 @@
-# 👨‍💻 Greetings, Fellow Code Adventurer! I'm Harry👋
+![Header](./banner.svg)
 
-![Code Warp](https://img.shields.io/badge/Code-Warp-blue?style=for-the-badge)
+## Hey there! 👋 I'm Harry
 
-As a seasoned Backend Software Engineer, I navigate the vast realms of code, wielding the mighty Java as my weapon of choice ☕️. My journey through the digital cosmos has led me to the fascinating world of React, where I'm currently honing my skills to harness the power of the frontend.
+**Senior Code Wizard** 🧙‍♂️ who turns coffee into distributed systems and occasionally debugs production at 3 AM (but who's counting? ☕).
 
-## 🚀 Current Mission:
+When I'm not busy teaching robots to talk to each other via microservices, you'll find me automating everything that moves and some things that don't.
 
-- 🌱 Learning the arcane arts of React sorcery.
-- ⚙️ Crafting seamless and efficient backend solutions with Java.
+### 🛠️ My Magical Toolkit
 
-## 💡 Tools in My Developer Arsenal:
+**Backend Spells** ✨
+- Java ☕
+- Python 🐍
+- Apache Kafka 🚀
 
-![Java Mage](https://img.shields.io/badge/Java-Mage-yellow?style=for-the-badge&logo=java)
-![Spring Wizard](https://img.shields.io/badge/Spring-Wizard-success?style=for-the-badge&logo=spring)
-![Apache Kafka Sorcerer](https://img.shields.io/badge/Apache%20Kafka-Sorcerer-critical?style=for-the-badge&logo=apache-kafka)
-![Python Enchanter](https://img.shields.io/badge/Python-Enchanter-blue?style=for-the-badge&logo=python)
-![MySQL Alchemist](https://img.shields.io/badge/MySQL-Alchemist-orange?style=for-the-badge&logo=mysql)
-![Prometheus Observer](https://img.shields.io/badge/Prometheus-Observer-yellow?style=for-the-badge&logo=prometheus)
-![Grafana Seer](https://img.shields.io/badge/Grafana-Seer-blue?style=for-the-badge&logo=grafana)
+**Infrastructure Wizardry** 🔮
+- Kubernetes ⚙️ (making containers dance)
+- Docker 🐳 (containerizing all the things)
+- MySQL/PostgreSQL 🗄️ (database whispering)
+- Prometheus & Grafana 📊 (pretty charts from chaos)
 
+**Architecture Philosophy** 🏛️
+- Microservices (because monoliths are so last decade)
+- Event-Driven Architecture (async is the way)
+- "It works on my machine" → "It works everywhere"
 
-## 🌌 Quantum Code Flux Index:
+### 🎯 Currently Obsessing Over
+- 🚀 Building systems that don't break at 2 AM
+- 🤖 Teaching React to play nice with my backend
+- 🧠 Designing architectures that scale better than my coffee addiction
+- 🔥 Making infrastructure so reliable, it's boring (in a good way)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hary-singh)](https://github.com/hary-singh)
-
-May your code compile swiftly, and your bugs be but a fleeting illusion! 🚀✨
-
-<!---
-hary-singh/hary-singh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+---
+**Status:** Currently debugging... always debugging 🐛🔍
