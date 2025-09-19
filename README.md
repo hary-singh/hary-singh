@@ -1,34 +1,34 @@
 ![Header](./banner.svg)
 
-## Hey there! 👋 I'm Harry
+# Harry Singh
 
-**Senior Code Wizard** 🧙‍♂️ who turns coffee into distributed systems and occasionally debugs production at 3 AM (but who's counting? ☕).
+```bash
+$ whoami
+Backend engineer who builds things that don't break
+```
 
-When I'm not busy teaching robots to talk to each other via microservices, you'll find me automating everything that moves and some things that don't.
+```yaml
+stack:
+  languages: [Java, Python, SQL]
+  frameworks: [Spring Boot, Spring Cloud, React, pandas, scikit-learn]
+  messaging: [Apache Kafka]
+  orchestration: [Kubernetes, Docker]
+  databases: [MySQL, PostgreSQL]
+  infrastructure: [Terraform (IaC), Helm]
+  monitoring: [Prometheus, Grafana]
+  integrations: [HL7, ETL pipelines]
+  ml_tools: [OCR, fuzzy matching algorithms]
+  compliance: [HIPAA, 42 CFR]
 
-### 🛠️ My Magical Toolkit
+philosophy: |
+  Write code like the person maintaining it
+  is a violent psychopath who knows where you live
 
-**Backend Spells** ✨
-- Java ☕
-- Python 🐍
-- Apache Kafka 🚀
+current_status: shipping_code
+```
 
-**Infrastructure Wizardry** 🔮
-- Kubernetes ⚙️ (making containers dance)
-- Docker 🐳 (containerizing all the things)
-- MySQL/PostgreSQL 🗄️ (database whispering)
-- Prometheus & Grafana 📊 (pretty charts from chaos)
-
-**Architecture Philosophy** 🏛️
-- Microservices (because monoliths are so last decade)
-- Event-Driven Architecture (async is the way)
-- "It works on my machine" → "It works everywhere"
-
-### 🎯 Currently Obsessing Over
-- 🚀 Building systems that don't break at 2 AM
-- 🤖 Teaching React to play nice with my backend
-- 🧠 Designing architectures that scale better than my coffee addiction
-- 🔥 Making infrastructure so reliable, it's boring (in a good way)
+**Side quests:** Crushing CrossFit WODs, giving doggos belly rubs and optimizing everything that doesn't move!
 
 ---
-**Status:** Currently debugging... always debugging 🐛🔍
+
+> *"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."* - Martin Fowler
